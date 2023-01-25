@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c43c1818-9667-4e6e-9476-1e370f1139e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GiftVoucher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginAndReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReturnPolicy.java" afterDir="false" />
+    <list default="true" id="c43c1818-9667-4e6e-9476-1e370f1139e2" name="Changes" comment="all in there">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GiftVoucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GiftVoucher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginAndReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginAndReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReturnPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReturnPolicy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +53,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GiftVoucher.login">
-    <configuration name="GiftVoucher.login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GiftVoucher.giftvoucher">
+    <configuration name="GiftVoucher.giftvoucher (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chris" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="METHOD_NAME" value="giftvoucher" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -73,11 +66,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftVoucher.login (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftVoucher.giftvoucher (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chris" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="METHOD_NAME" value="giftvoucher" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftVoucher.login (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftVoucher.giftvoucher (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chris" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="METHOD_NAME" value="giftvoucher" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftVoucher.login (5)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftVoucher.giftvoucher (5)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chris" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="METHOD_NAME" value="giftvoucher" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,11 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftVoucher.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftVoucher.giftvoucher" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chris" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="METHOD_NAME" value="giftvoucher" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GiftVoucher.login" />
-        <item itemvalue="TestNG.GiftVoucher.login (2)" />
-        <item itemvalue="TestNG.GiftVoucher.login (5)" />
-        <item itemvalue="TestNG.GiftVoucher.login (4)" />
-        <item itemvalue="TestNG.GiftVoucher.login (1)" />
+        <item itemvalue="TestNG.GiftVoucher.giftvoucher" />
+        <item itemvalue="TestNG.GiftVoucher.giftvoucher (5)" />
+        <item itemvalue="TestNG.GiftVoucher.giftvoucher (1)" />
+        <item itemvalue="TestNG.GiftVoucher.giftvoucher (4)" />
+        <item itemvalue="TestNG.GiftVoucher.giftvoucher (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +181,18 @@
       <option name="presentableId" value="Default" />
       <updated>1674550032954</updated>
     </task>
+    <task id="LOCAL-00001" summary="all in there">
+      <created>1674671980192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674671980193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all in there" />
+    <option name="LAST_COMMIT_MESSAGE" value="all in there" />
   </component>
 </project>
