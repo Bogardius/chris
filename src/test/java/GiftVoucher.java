@@ -7,6 +7,8 @@ import org.openqa.selenium.support.ui.Sleeper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.concurrent.TimeUnit;
 
@@ -53,13 +55,15 @@ public class GiftVoucher {
             //Click on the link Cadeaukaart
             WebElement garantie = driver.findElement(By.linkText("Cadeaukaart"));
             garantie.click();
-            WebElement kadokaart = driver.findElement(By.xpath("//a[@href='/nl/nl/p/bol-com-cadeaubon-25-euro-voor-jou/9200000113167726/']"));
+            WebElement kadokaart = driver.findElement(By.xpath("//a[@href='/nl/nl/p/bol-com-cadeaubon-25-euro-bedankt/9200000114912813/']"));
             kadokaart.click();
-            System.out.println("Navigate directly, couldnt manage to get the dropdown working");
-            driver.navigate().to("https://www.bol.com/nl/nl/p/bol-com-cadeaubon-25-euro-voor-jou/9200000113167726/?s2a=&bltgh=uBoCBLVQAUR3RQmdYopEHg.2_36_37.39.FeatureListItem#productTitle");
-            /*WebElement dropdown = driver.findElement(By.xpath("//div[@class='feature-list__text' and @id='9200000113167726']"));
-            WebElement dropdown = driver.findElement(By.cssSelector("span[class='Voor jou']"));
-            dropdown.click();*/
+            System.out.println("Going to select the correct dropdown and click on Voor jou");
+            WebElement dropdown = driver.findElement(By.xpath("//div[@data-test='feature-group-dropdown' and contains(@data-bltgi,'2_36_37.39')]"));
+            dropdown.click();
+            WebElement clickon = driver.findElement(By.cssSelector("a[href='/nl/nl/p/bol-com-cadeaubon-25-euro-voor-jou/9200000113167726/?s2a=#productTitle'"));
+            clickon.isDisplayed();
+            clickon.click();
+            System.out.println("Add the card to the winkelwagen");
             WebElement winkelwagen = driver.findElement(By.linkText("In winkelwagen"));
             winkelwagen.click();
             System.out.println("Winkelwagen content");
