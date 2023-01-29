@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c43c1818-9667-4e6e-9476-1e370f1139e2" name="Changes" comment="all in there">
+    <list default="true" id="c43c1818-9667-4e6e-9476-1e370f1139e2" name="Changes" comment="working dropdown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GiftVoucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GiftVoucher.java" afterDir="false" />
     </list>
@@ -39,32 +39,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GiftVoucher.giftvoucher">
-    <configuration name="GiftVoucher.giftvoucher (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.3GiftVoucher">
+    <configuration name="1LoginAndReturn" type="TestNG" folderName="SequenceOfTests">
       <module name="chris" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
+      <option name="MAIN_CLASS_NAME" value="LoginAndReturn" />
       <option name="METHOD_NAME" value="giftvoucher" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftVoucher.giftvoucher (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="2ReturnPolicy" type="TestNG" folderName="SequenceOfTests" temporary="true">
+      <module name="chris" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReturnPolicy" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3GiftVoucher" type="TestNG" folderName="SequenceOfTests" temporary="true">
+      <module name="chris" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
+      <option name="METHOD_NAME" value="giftvoucher" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiftVoucher.giftvoucher (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chris" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
@@ -88,42 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftVoucher.giftvoucher (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="chris" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
-      <option name="METHOD_NAME" value="giftvoucher" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GiftVoucher.giftvoucher" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="chris" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GiftVoucher" />
-      <option name="METHOD_NAME" value="giftvoucher" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginBol.login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="chris" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginBol" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Retour.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chris" />
       <option name="PACKAGE_NAME" value="" />
@@ -148,25 +166,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Retour.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="chris" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Retour" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.1LoginAndReturn" />
+      <item itemvalue="TestNG.2ReturnPolicy" />
+      <item itemvalue="TestNG.3GiftVoucher" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GiftVoucher.giftvoucher" />
-        <item itemvalue="TestNG.GiftVoucher.giftvoucher (1)" />
-        <item itemvalue="TestNG.GiftVoucher.giftvoucher (4)" />
-        <item itemvalue="TestNG.GiftVoucher.giftvoucher (3)" />
-        <item itemvalue="TestNG.GiftVoucher.giftvoucher (2)" />
+        <item itemvalue="TestNG.3GiftVoucher" />
+        <item itemvalue="TestNG.2ReturnPolicy" />
       </list>
     </recent_temporary>
   </component>
@@ -193,11 +201,19 @@
       <option name="project" value="LOCAL" />
       <updated>1674684230302</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working dropdown">
+      <created>1674737273158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674737273158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all in there" />
-    <option name="LAST_COMMIT_MESSAGE" value="all in there" />
+    <MESSAGE value="working dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="working dropdown" />
   </component>
 </project>
